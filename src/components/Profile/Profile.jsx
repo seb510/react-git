@@ -1,4 +1,5 @@
 import React from 'react';
+import MyPosts from './MyPosts/MyPosts';
 import classes from './Profile.module.css';
 
 function Profile() {
@@ -20,20 +21,7 @@ function Profile() {
               </p>
             </div>
           </div> 
-        <div>
-          My post
-          <div>
-            New post
-          </div>
-          <div>
-            <div>
-              Post 1
-            </div>
-            <div>
-              Post 2
-            </div>
-          </div>
-        </div>
+        <MyPosts/>
       </div>
     );
 };
