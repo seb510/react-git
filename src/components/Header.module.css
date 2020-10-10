@@ -1,0 +1,15 @@
+.header {
+  grid-area: h;
+  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+}
+
+.header span {
+  margin-left: auto;
+}
+
+.header img {
+  width: 60px;
+  height: 60px;
+}

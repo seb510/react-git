@@ -1,12 +1,13 @@
 import React from 'react';
+import classes from './Profile.module.css';
 
 function Profile() {
     return (
-        <div className='content'>
+        <div className={classes.content}>
         <div>
-          <img src='https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images.jpg'/>
+          <img src='https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images.jpg' className={classes.back}/>
         </div>  
-        <div className='ava'>
+        <div className={classes.ava}>
           <img src='https://cdn.jpegmini.com/user/images/slider_puffin_before_mobile.jpg'/>
           discription
         </div>
