@@ -7,6 +7,15 @@
   height: 40vh;
 }
 
+.inform {
+  display: flex;
+  color: #fff;
+}
+
+.inform span {
+  display: inline-block;  
+}
+
 .ava {
   width: 100px;
   height: 100px;
