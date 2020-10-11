@@ -1,14 +1,13 @@
 import React from 'react';
 import Avatar from './Avatar/Avatar';
+import Back from './Back/Back';
 import MyPosts from './MyPosts/MyPosts';
 import classes from './Profile.module.css';
 
 function Profile() {
     return (
       <div className={classes.content}>
-        <div>
-          <img src='https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images.jpg' className={classes.back}/>
-        </div> 
+        <Back/>
         <Avatar/> 
         <MyPosts/>
       </div>
