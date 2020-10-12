@@ -8,7 +8,7 @@ function Profile() {
     return (
       <div className={classes.content}>
         <Back/>
-        <Avatar message='Never give up'/> 
+        <Avatar/> 
         <MyPosts/>
       </div>
     );
