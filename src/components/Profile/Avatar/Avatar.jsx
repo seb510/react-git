@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Avatar.module.css';
 
-function Avatar() {
+function Avatar(props) {
     return (
       <div className={classes.inform}>
         <div className={classes.ava}>
@@ -13,6 +13,7 @@ function Avatar() {
               <span>
                 19 Julay 1992 year
               </span>
+            {props.message}
             </p>
           </div>
       </div>

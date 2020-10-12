@@ -11,8 +11,8 @@ function MyPosts() {
         <button type="submit">Add</button>
       </div>
       <div className={classes.posts}>
-        <Post/>
-        <Post/>
+        <Post message='Hi! how are you?' count='20'/>
+        <Post message='Hi! It is my first post' count='10'/>
       </div>
     </div>
     );
