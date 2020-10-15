@@ -9,7 +9,7 @@ function Avatar(props) {
         </div>
         <div>
             <p>
-              Sebistian Mykola
+              Sebistiyan Mykola
               <span>
                 19 Julay 1992 year
               </span>

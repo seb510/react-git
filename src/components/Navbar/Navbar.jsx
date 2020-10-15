@@ -15,13 +15,13 @@ function Navbar() {
                 <NavLink to='/news'activeClassName={classes.activeLink}>News</NavLink>
             </div>
             <div className={classes.item}>
-                <NavLink to='/music'>Music</NavLink>
+                <NavLink to='/music' activeClassName={classes.activeLink}>Music</NavLink>
             </div>
             <div className={classes.item}>
-                <NavLink to=''>Settings</NavLink>
+                <NavLink to='/settings' activeClassName={classes.activeLink}>Settings</NavLink>
             </div>
       </nav>
     );
-};
+}
 
 export default Navbar;
