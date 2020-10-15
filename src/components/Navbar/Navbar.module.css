@@ -19,6 +19,6 @@
   color: aquamarine;
 }
 
-.item.active a {
+.item a.activeLink {
   color: green;
 }
