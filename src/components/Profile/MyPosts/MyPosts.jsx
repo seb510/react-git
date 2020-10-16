@@ -5,13 +5,13 @@ import Post from './Post/Post';
 function MyPosts() {
     return (
     <div className={classes.posts}>
-      <h3>My post</h3>
+      <h3>MY POST</h3>
       <div>
           <div>
-              <textarea name="text" id="" cols="20" rows="5"></textarea>
+              <textarea name="text"></textarea>
           </div>
           <div>
-              <button type="submit">Add</button>
+              <button type="submit">Add post</button>
           </div>
       </div>
       <div className={classes.postsDialog}>

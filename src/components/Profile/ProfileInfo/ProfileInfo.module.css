@@ -1,10 +1,16 @@
 .back {
-    height: 40vh;
+    height: 45vh;
 }
 
 .inform {
     display: flex;
+    align-items: center;
+    margin-top: 20px;
     color: #fff;
+    margin-left: 10px;
+}
+
+.inform p {
     margin-left: 10px;
 }
 
@@ -15,4 +21,9 @@
 .ava {
     width: 100px;
     height: 100px;
+}
+
+.ava img {
+    border-radius: 50%;
+    border: 1px solid #fff;
 }

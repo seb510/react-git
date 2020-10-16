@@ -1,3 +1,11 @@
+* {
+  font-family: 'Verdana', sans-serif;
+  font-size: 18px;
+}
+
+img {
+
+}
 .app-wrapper {
   display: grid;
   margin: 0 auto;
@@ -12,5 +20,5 @@
 
 .app-wrapper-content {
   grid-area: c;
-  background-color: cornflowerblue;
+  background-color: #70c2ea;
 }
