@@ -3,7 +3,7 @@ import classes from './Dialogs.module.css';
 import {NavLink} from "react-router-dom";
 
 const DialogsItem = (props) => {
-    let path = '/dialogs/2' + props.id;
+    let path = '/dialogs/' + props.id;
 
     return (
         <div className={classes.dialog + ' ' + classes.active}>
@@ -36,6 +36,7 @@ const Dialogs = (props) => {
                 <Message message='H!'/>
                 <Message message='How are your dill my Friend?'/>
                 <Message message='Thanks everything is ok! and you?'/>
+                <Message message='YOU?'/>
             </div>
         </div>
     )
