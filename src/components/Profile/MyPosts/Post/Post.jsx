@@ -8,7 +8,7 @@ function Post(props) {
             <span>{props.message}</span>
             <p>
                 Like -
-            <span>{ props.count }</span>
+            <span>{ props.likesCount }</span>
             </p>
         </div>
     );

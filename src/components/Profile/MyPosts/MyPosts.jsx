@@ -4,10 +4,13 @@ import Post from './Post/Post';
 
 function MyPosts() {
 
-    let  postData = [
+    let  posts = [
         {id: 1, message: 'Hi! how are you?', likesCount: 12},
         {id: 2, message: 'Hi! It is my first post', likesCount: 15},
+        {id: 3, message: 'Maybe we can to play with us', likesCount: 15},
     ];
+
+    let postsElement = posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
 
     return (
     <div className={classes.posts}>
@@ -21,8 +24,8 @@ function MyPosts() {
           </div>
       </div>
       <div className={classes.postsDialog}>
-        <Post message={postData[0].message} likesCount={postData[0].likesCount}/>
-        <Post message={postData[1].message} likesCount={postData[1].likesCount}/>
+          {postsElement}
+        {/*<Post message={postData[0].message} likesCount={postData[0].likesCount}/ -старая запись>*/}
       </div>
     </div>
     );

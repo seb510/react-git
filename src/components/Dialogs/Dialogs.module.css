@@ -11,12 +11,8 @@
     color: gold;
 }
 
-.dialog {
+.dialog, .dialogsItems {
     color: #fff;
-}
-
-.messages {
-
 }
 
 .message {
