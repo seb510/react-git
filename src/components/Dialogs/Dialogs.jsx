@@ -22,7 +22,7 @@ const Dialogs = (props) => {
         {id: 4, message: 'YOUUu'},
     ]
 
-    let dialogsElements = dialogs.map(d => <DialogsItem name={d.name} id={d.id}/>)
+    let dialogsElements = dialogs.map(d => <DialogItem name={d.name} id={d.id}/>)
 
     let messagesElements = messages.map(m => <Message message={m.message}/>)
 
