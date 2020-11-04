@@ -15,7 +15,7 @@ let  messages = [
     {id: 2, message: 'How are you?'},
     {id: 3, message: 'Thanks. How are your dill my Friend?'},
     {id: 4, message: 'Thanks everything is ok and you?'},
-    {id: 4, message: 'YOUUu'},
+    {id: 4, message: 'Good luck'},
 ];
 
 let  dialogs = [
