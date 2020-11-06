@@ -7,15 +7,20 @@ function MyPosts(props) {
     let postsElement =
         props.posts.map(p => <Post message={p.message} likesCount={p.likesCount}/>)
 
+    let newPostElement = React.createRef();
+    let addPost = () => {
+        let text= newPostElement.current.value;
+        alert(text)
+    }
     return (
     <div className={classes.posts}>
       <h3>MY POST</h3>
       <div>
           <div>
-              <textarea name="text"></textarea>
+              <textarea ref={newPostElement}></textarea>
           </div>
           <div>
-              <button type="submit">Add post</button>
+              <button onClick={addPost} type="submit">Add post</button>
           </div>
       </div>
       <div className={classes.postsDialog}>
